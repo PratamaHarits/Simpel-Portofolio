@@ -1,0 +1,47 @@
+body {
+    background-image: url(../../img/background2.png);
+}
+
+.foto {
+    border-radius: 50%;
+}
+
+/* link */
+a {
+    color: lightcyan;
+    text-decoration: none;
+}
+
+/* efek link */
+a:hover {
+    color: yellowgreen;
+}
+
+/* tulisan menjadi warna putih */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: lightcyan;
+}
+
+/* h1 untuk modal */
+h1.modal-title {
+    color: black;
+}
+
+/* kotak isi komentar */
+p.komentar{
+    border: 1px solid yellowgreen;
+    padding: 10px;
+}
+
+/* ikon home */
+.fixed-icon {
+    position: fixed;
+    bottom: 20px; /* Sesuaikan dengan posisi vertikal yang diinginkan */
+    right: 20px; /* Sesuaikan dengan posisi horizontal yang diinginkan */
+}
